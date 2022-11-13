@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./expt1.css";
+import "./expt6.css";
 
 export default class Expt1 extends Component {
   render() {
