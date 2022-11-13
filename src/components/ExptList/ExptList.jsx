@@ -11,7 +11,7 @@ export default class ExptList extends Component {
         </h3>
         <ul>
           <li>
-            <Link to="/">Experiment 1</Link>
+            <Link to="/expt1">Experiment 1</Link>
           </li>
           <li>
             <Link to="/">Experiment 2</Link>
