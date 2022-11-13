@@ -14,25 +14,25 @@ export default class ExptList extends Component {
             <Link to="/expt1">Experiment 1</Link>
           </li>
           <li>
-            <Link to="/">Experiment 2</Link>
+            <Link to="/expt2">Experiment 2</Link>
           </li>
           <li>
-            <Link to="/lo-expts">Experiment 3</Link>
+            <Link to="/expt3">Experiment 3</Link>
           </li>
           <li>
-            <Link to="/">Experiment 4</Link>
+            <Link to="/expt4">Experiment 4</Link>
           </li>
           <li>
-            <Link to="/">Experiment 5</Link>
+            <Link to="/expt5">Experiment 5</Link>
           </li>
           <li>
-            <Link to="/">Experiment 6</Link>
+            <Link to="/expt6">Experiment 6</Link>
           </li>
           <li>
-            <Link to="/">Experiment 7</Link>
+            <Link to="/expt7">Experiment 7</Link>
           </li>
           <li>
-            <Link to="/">Experiment 8</Link>
+            <Link to="/expt8">Experiment 8</Link>
           </li>
         </ul>
       </div>
