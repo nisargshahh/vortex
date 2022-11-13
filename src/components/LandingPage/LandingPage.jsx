@@ -1,61 +1,45 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./landingpage.css";
+import "../../App"
 
 export default class LandingPage extends Component {
   render() {
     return (
       <div className="main">
         <div className="heading">
-          <h1 className='vortex-name'>Vortex</h1>
+          <h1 className="vortex-name">Vortex</h1>
           <h3 className="the-pgm-simulator">The PGM simulator</h3>
-          {/* <h3 className="downward-arrow">˅</h3> */}
 
           <div className="list-of-functs">
-        <ul>
+            <ul>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  About PGM
-                </a>
+                <Link to="/">About PGM</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Module Objectives
-                </a>
+                <Link to="/">Module Objectives</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  List of Experiments
-                </a>
+                <Link to="/lo-expts">List of Experiments</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Simulator
-                </a>
+                <Link to="/">Simulator</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Bayes Server
-                </a>
+                <Link to="/">Bayes Server</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Papers
-                </a>
+                <Link to="/">Papers</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Feedback
-                </a>
+                <Link to="/">Feedback</Link>
               </li>
               <li>
-                <a class="list-of-funct-link" href="#0">
-                  Fact Corner
-                </a>
+                <Link to="/">Fact Corner</Link>
               </li>
             </ul>
+          </div>
         </div>
-        </div>
-        
       </div>
     );
   }
