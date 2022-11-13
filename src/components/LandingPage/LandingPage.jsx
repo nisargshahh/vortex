@@ -26,7 +26,7 @@ export default class LandingPage extends Component {
                 <Link to="/">Simulator</Link>
               </li>
               <li>
-                <Link to="/">Bayes Server</Link>
+                <Link to="/bayes-server">Bayes Server</Link>
               </li>
               <li>
                 <Link to="/">Papers</Link>

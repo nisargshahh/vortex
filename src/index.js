@@ -12,6 +12,7 @@ import Expt5 from "./pages/Experiments/expt5";
 import Expt6 from "./pages/Experiments/expt6";
 import Expt7 from "./pages/Experiments/expt7";
 import Expt8 from "./pages/Experiments/expt8";
+import BS from "./pages/BayesServer/bayesServer"
 // import NavBar from "./components/Navbar/NavBar";
 // import Footer from "./components/Footer/Footer";
 // import LandingPage from "./components/LandingPage/LandingPage";
@@ -30,6 +31,8 @@ root.render(
         <Route path="/expt6" element={<Expt6/>}></Route>
         <Route path="/expt7" element={<Expt7/>}></Route>
         <Route path="/expt8" element={<Expt8/>}></Route>
+        <Route path="/bayes-server" element={<BS/>}></Route>
+      
       </Routes>
   </Router>
   
