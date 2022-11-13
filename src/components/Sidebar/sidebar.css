@@ -7,6 +7,8 @@
    height: 80vh;
    padding-top: 10px;
    padding-bottom: 10px;
+   padding-right: 30px;
+   display: block;
 }
 
 .s-layout__sidebar a {
@@ -22,3 +24,9 @@
 .s-layout__sidebar ul li {
    margin-top: 20px;
 }
+
+@media (max-width: 600px){
+   .s-layout{
+     display: none;
+   }
+ }
