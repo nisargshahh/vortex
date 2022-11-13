@@ -8,11 +8,11 @@ export default function navbar() {
     <div className="navbar-container">
       <Navbar bg="blueBg" variant="dark" sticky="top" expand='sm' collapseOnSelect className="nav-bar">
         <Navbar.Brand className="nav-img">
-          <img
+          <Nav.Link href="/"><img
             src={require("../Images/Vortex.png")}
             alt="Vortex"
             className="nav-logo-img"
-          />
+          /></Nav.Link>
         </Navbar.Brand>
         <Navbar.Toggle/>
         <NavbarCollapse>
