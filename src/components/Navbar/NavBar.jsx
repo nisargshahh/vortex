@@ -35,6 +35,9 @@ export default function navbar() {
             <NavDropdown.Item href="/">Expt 3</NavDropdown.Item>
             <NavDropdown.Item href="/">Expt 4</NavDropdown.Item> 
             <NavDropdown.Item href="/">Expt 5</NavDropdown.Item>
+            <NavDropdown.Item href="/">Expt 6</NavDropdown.Item>
+            <NavDropdown.Item href="/">Expt 7</NavDropdown.Item>
+            <NavDropdown.Item href="/">Expt 8</NavDropdown.Item>
           </NavDropdown>
           
         </Nav>

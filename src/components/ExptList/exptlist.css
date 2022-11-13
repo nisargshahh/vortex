@@ -1,0 +1,50 @@
+.expt-list{
+    padding-top: 80px;
+    background-color: #e6f4ff;
+}
+
+.loe-heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+.expt-list {
+    padding-bottom: 100px;
+}
+
+.expt-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expt-list ul li {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #327eb1;
+    padding: 20px;
+    width: 35%;
+}
+
+ol,
+ul {
+    padding-left: 0rem;
+}
+
+.expt-list ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eff8ff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@media (max-width:767px) {
+    .expt-list ul li {
+        width: 80%;
+    }
+}

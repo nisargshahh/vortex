@@ -30,8 +30,8 @@
     padding-bottom: 100px;
 }
 
-.list-of-functs{
- padding-bottom: 100px;   
+.list-of-functs {
+    padding-bottom: 100px;
 }
 
 .list-of-functs ul {
@@ -48,10 +48,11 @@
     text-decoration: none;
     background-color: #327eb1;
     padding: 20px;
-    width: 30%;
+    width: 35%;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 0rem;
 }
 
@@ -66,16 +67,18 @@ ol, ul {
 
 @media (max-width:767px) {
     .vortex-name {
-        font-size: 80px;
+        padding-top: 30vh;
+        font-size: 25vw;
         text-align: center;
     }
 
     .the-pgm-simulator {
-        font-size: 30px;
+        font-size: 12vw;
         text-align: center;
+        padding-bottom: 30vh;
     }
 
     .list-of-functs ul li {
-        width: 70%;
+        width: 80%;
     }
 }

@@ -1,16 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer/Footer";
+import ExptList from "../../components/ExptList/ExptList";
 
 function LOExpts() {
-    return (
-      <div>
-        <NavBar />
-        <Footer />
-      </div>
-    );
-  }
-  
-  export default LOExpts;
+  return (
+    <div>
+      <NavBar />
+      <ExptList />
+      <Footer />
+    </div>
+  );
+}
+
+export default LOExpts;
