@@ -1,0 +1,81 @@
+.main {
+    padding: 20px;
+    background-color: #e6f4ff;
+}
+
+.vortex-name {
+    padding-top: 100px;
+    font-weight: bold;
+    color: #1f5172;
+    text-align: center;
+    font-size: 12vw;
+    width: 100%;
+}
+
+.the-pgm-simulator {
+    font-weight: bold;
+    color: #193040;
+    text-align: center;
+    font-size: 4vw;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.downward-arrow {
+    font-weight: bold;
+    color: #193040;
+    text-align: center;
+    font-size: 2vw;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.list-of-functs{
+ padding-bottom: 100px;   
+}
+
+.list-of-functs ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-of-functs ul li {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #327eb1;
+    padding: 20px;
+    width: 30%;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.list-of-functs ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eff8ff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@media (max-width:767px) {
+    .vortex-name {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .the-pgm-simulator {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .list-of-functs ul li {
+        width: 70%;
+    }
+}
