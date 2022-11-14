@@ -1,36 +1,37 @@
 .main {
     padding: 20px;
     background-color: #e6f4ff;
+    display: flex;
+}
+
+.header{
+    flex: 4
 }
 
 .vortex-name {
+    align-items: flex-start;
     padding-top: 100px;
     font-weight: bold;
     color: #1f5172;
-    text-align: center;
+    text-align: left;
     font-size: 12vw;
     width: 100%;
+    padding-left: 30px;
 }
 
 .the-pgm-simulator {
+    align-self: start;
     font-weight: bold;
     color: #193040;
-    text-align: center;
+    text-align: left;
     font-size: 4vw;
     width: 100%;
     padding-bottom: 100px;
-}
-
-.downward-arrow {
-    font-weight: bold;
-    color: #193040;
-    text-align: center;
-    font-size: 2vw;
-    width: 100%;
-    padding-bottom: 100px;
+    padding-left: 40px;
 }
 
 .list-of-functs {
+    flex: 4;
     padding-bottom: 100px;
 }
 
@@ -38,17 +39,19 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 .list-of-functs ul li {
     text-align: center;
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20vh;
+    margin-top: 15px;
     text-decoration: none;
     background-color: #327eb1;
-    padding: 20px;
-    width: 35%;
+    padding: 15px;
+    width: 50%;
 }
 
 ol,

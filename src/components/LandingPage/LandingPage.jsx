@@ -10,6 +10,7 @@ export default class LandingPage extends Component {
         <div className="heading">
           <h1 className="vortex-name">Vortex</h1>
           <h3 className="the-pgm-simulator">The PGM simulator</h3>
+        </div>
 
           <div className="list-of-functs">
             <ul>
@@ -35,12 +36,11 @@ export default class LandingPage extends Component {
                 <Link to="/">Feedback</Link>
               </li>
               <li>
-                <Link to="/">Fact Corner</Link>
+                <Link to="/">Projects</Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
     );
   }
 }
