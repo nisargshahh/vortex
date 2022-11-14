@@ -16,10 +16,10 @@ export default class LandingPage extends Component {
           <div className="list-of-functs" id="functions">
             <ul>
               <li>
-                <Link to="/">About PGM</Link>
+                <Link to="/about-pgm">About PGM</Link>
               </li>
               <li>
-                <Link to="/">Module Objectives</Link>
+                <Link to="/module-obj">Module Objectives</Link>
               </li>
               <li>
                 <Link to="/lo-expts">List of Experiments</Link>
@@ -31,13 +31,13 @@ export default class LandingPage extends Component {
                 <Link to="/bayes-server">Bayes Server</Link>
               </li>
               <li>
-                <Link to="/">Papers</Link>
+                <Link to="/papers">Papers</Link>
               </li>
               <li>
-                <Link to="/">Feedback</Link>
+                <Link to="/feedback">Feedback</Link>
               </li>
               <li>
-                <Link to="/">Projects</Link>
+                <Link to="/projects">Projects</Link>
               </li>
             </ul>
           </div>

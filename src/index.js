@@ -13,6 +13,11 @@ import Expt6 from "./pages/Experiments/expt6";
 import Expt7 from "./pages/Experiments/expt7";
 import Expt8 from "./pages/Experiments/expt8";
 import BS from "./pages/BayesServer/bayesServer"
+import AboutPGM from "./pages/AboutPGM/aboutPGM"
+import Feedback from "./pages/Feedback/feedback";
+import ModuleObj from "./pages/ModuleObj/moduleObj"
+import Papers from "./pages/Papers/papers";
+import Projects from "./pages/Projects/projects"
 // import NavBar from "./components/Navbar/NavBar";
 // import Footer from "./components/Footer/Footer";
 // import LandingPage from "./components/LandingPage/LandingPage";
@@ -32,6 +37,12 @@ root.render(
         <Route path="/expt7" element={<Expt7/>}></Route>
         <Route path="/expt8" element={<Expt8/>}></Route>
         <Route path="/bayes-server" element={<BS/>}></Route>
+        <Route path="/about-pgm" element={<AboutPGM/>}></Route>
+        <Route path="/module-obj" element={<ModuleObj/>}></Route>
+        <Route path="/papers" element={<Papers/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
+        <Route path="/feedback" element={<Feedback/>}></Route>
+
       
       </Routes>
   </Router>
