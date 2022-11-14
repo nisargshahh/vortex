@@ -9,7 +9,6 @@ function BayesServer() {
   return (
     <div>
       <NavBar />
-      {/* <ExptList /> */}
       <div className="bayes-server">
       <iframe src="https://online.bayesserver.com" name="BS" title="BS"></iframe>
       </div>

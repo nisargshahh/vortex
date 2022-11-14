@@ -10,12 +10,12 @@ export default function Footer() {
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
               <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates neque natus ipsam, dicta fugiat unde obcaecati minus
-                dolorem quaerat est animi odio mollitia distinctio dolore iste
-                veritatis iusto enim! Aspernatur, optio nulla facilis deserunt,
-                exercitationem culpa fuga esse cum dolore enim earum harum atque
-                ullam sit, dolores fugiat impedit tempora!
+                Vortex aims to give comprehensive introduction of probabilistic graphical
+                models. It makes inferences, learning, actions and decisions
+                while applying these models. We introduce real-world trade offs
+                when using probabilistic graphical models in practice. This enables us to
+                develop the knowledge and skills necessary to apply these models
+                to solve real world problems.
               </p>
             </div>
 
@@ -41,16 +41,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-    
-          <div class="row">
-              <p class="copyright-text">
-                Created by
-                <a href="#"> Nisarg Shah</a>,<a href="#"> Hima Verma</a> and
-                <a href="#"> Sheetal Popat</a>.
-              </p>
-            </div>
 
-
+        <div class="row">
+          <p class="copyright-text">
+            Created by
+            <a href="#"> Nisarg Shah</a>,<a href="#"> Hima Verma</a> and
+            <a href="#"> Sheetal Popat</a>.
+          </p>
+        </div>
       </footer>
     </div>
   );

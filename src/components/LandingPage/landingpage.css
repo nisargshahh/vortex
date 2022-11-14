@@ -2,51 +2,59 @@
     padding: 20px;
     background-color: #e6f4ff;
     display: flex;
-}
-
-.header{
-    flex: 4
+    flex-direction: column;
 }
 
 .vortex-name {
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 70px;
     font-weight: bold;
     color: #1f5172;
-    text-align: left;
-    font-size: 12vw;
+    text-align: center;
+    font-size: 11vw;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .the-pgm-simulator {
     align-self: start;
     font-weight: bold;
     color: #193040;
-    text-align: left;
-    font-size: 4vw;
+    text-align: center;
+    font-size: 3.2vw;
     width: 100%;
-    padding-bottom: 100px;
-    padding-left: 40px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+}
+
+.downward-arrow{
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.downward-arrow a{
+    text-decoration: none;
+    color: #193040;
 }
 
 .list-of-functs {
-    flex: 4;
     padding-bottom: 100px;
 }
 
 .list-of-functs ul {
+    margin-top: 10px;
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
 
 .list-of-functs ul li {
     text-align: center;
     margin-left: auto;
-    margin-right: 20vh;
+    margin-right: auto;
     margin-top: 15px;
     text-decoration: none;
     background-color: #327eb1;
@@ -70,18 +78,32 @@ ul {
 
 @media (max-width:767px) {
     .vortex-name {
-        padding-top: 30vh;
+        padding-top: 25vh;
         font-size: 25vw;
         text-align: center;
+        padding-left: auto;
     }
 
     .the-pgm-simulator {
         font-size: 12vw;
         text-align: center;
-        padding-bottom: 30vh;
+        padding-bottom: 25vh;
+        padding-left: auto;
+    }
+
+    .list-of-functs ul {
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
     }
 
     .list-of-functs ul li {
         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        flex-direction: column;
     }
 }

@@ -5,102 +5,88 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Experiment 1</h1>
+        <h1 className="expt-heading">Implement Probability Theory</h1>
         <h2 className="expt-sub-heading">
-          <u>Introduction</u>
+          <u>Aim</u>
         </h2>
+        <p>Implement probabilistic graphical models using Python libraries</p>
+
+        <h3 className="expt-sub-heading">
+          <u>Objective </u>
+        </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          You will be able to visualise the probability graphs. This is the
+          foundation for PGM and to continue implementation throughout the
+          course, it's necessary to learn how to work with Python libraries like
+          Matplotlib.
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
+          <u>Theory</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
-        </p>
-
-        <h3 className="expt-sub-heading">
-          <u>Features</u>
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          ratione repellendus accusantium earum dignissimos tempore id quam
-          ducimus magni consectetur harum, corrupti pariatur optio nobis qui quo
-          deserunt numquam quasi:
+          Probabilistic modeling is a statistical technique used to take into
+          account the impact of random events or actions in predicting the
+          potential occurrence of future outcomes. Based on the fact that
+          randomness or uncertainty plays a role in predicting outcomes,
+          predictive modeling is used in a wide variety of fields and
+          disciplines, from predicting the weather to potential nuclear fallout.
         </p>
         <ul className="lab-manual">
-          <li className="lab-manual-heading">Lab Objectives</li>
+          <li className="lab-manual-heading">Probability Theory</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            distinctio ex quasi minus magni nobis sit fugit ab eius quo!
-            <ul>
-              <li>1. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>2. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>3. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>4. Lorem ipsum dolor sit amet consectetur.</li>
-            </ul>
+            Probability theory is the branch of mathematics concerned with
+            probability. Although there are several different probability
+            interpretations, probability theory treats the concept in a rigorous
+            mathematical manner by expressing it through a set of axioms.
+            Typically these axioms formalise probability in terms of a
+            probability space, which assigns a measure taking values between 0
+            and 1, termed the probability measure, to a set of outcomes called
+            the sample space. Any specified subset of the sample space is called
+            an event. Central subjects in probability theory include discrete
+            and continuous random variables, probability distributions, and
+            stochastic processes (which provide mathematical abstractions of
+            non-deterministic or uncertain processes or measured quantities that
+            may either be single occurrences or evolve over time in a random
+            fashion). Although it is not possible to perfectly predict random
+            events, much can be said about their behavior. Two major results in
+            probability theory describing such behaviour are the law of large
+            numbers and the central limit theorem. As a mathematical foundation
+            for statistics, probability theory is essential to many human
+            activities that involve quantitative analysis of data. Methods of
+            probability theory also apply to descriptions of complex systems
+            given only partial knowledge of their state, as in statistical
+            mechanics or sequential estimation. A great discovery of
+            twentieth-century physics was the probabilistic nature of physical
+            phenomena at atomic scales, described in quantum mechanics.
           </p>
-          <li className="lab-manual-heading">Materials Required</li>
+          <li className="lab-manual-heading">Probabilistic Graphical Model</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            minima laudantium rem est? Quaerat suscipit quis culpa illo, officia
-            doloribus.
-          </p>
-          <li className="lab-manual-heading">Completion Times</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium earum a nisi facilis ipsa libero accusamus dolore culpa
-            aspernatur esse?
-          </p>
-          <li className="lab-manual-heading">Activity Sections</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            alias consectetur, consequatur perferendis ipsum temporibus illo at!
-            Earum, accusantium iste.
-          </p>
-          <li className="lab-manual-heading">Step-by-Step Instructions</li>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eos
-            corporis perspiciatis id iste corrupti accusamus cupiditate
-            blanditiis culpa repellendus?
-          </p>
-          <li className="lab-manual-heading">Review Questions</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur molestias ducimus perferendis veniam alias fugiat
-            quisquam officiis voluptatum, quas debitis.
+            A graphical model or probabilistic graphical model (PGM) or
+            structured probabilistic model is a probabilistic model for which a
+            graph expresses the conditional dependence structure between random
+            variables. They are commonly used in probability theory,
+            statistics—particularly Bayesian statistics—and machine learning.
+            Generally, probabilistic graphical models use a graph-based
+            representation as the foundation for encoding a distribution over a
+            multi-dimensional space and a graph that is a compact or factorized
+            representation of a set of independences that hold in the specific
+            distribution. Two branches of graphical representations of
+            distributions are commonly used, namely, Bayesian networks and
+            Markov random fields. Both families encompass the properties of
+            factorization and independences, but they differ in the set of
+            independences they can encode and the factorization of the
+            distribution that they induce.
           </p>
         </ul>
-
+      
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>
         <ol>
-          <li>What is the operating system of the computer you use?</li>
-          <li>How much main memory does the computer you use have?</li>
-          <li>What output devices areconnected to the computer you use? </li>
-          <li>How much secondary storage does the computer you use have?</li>
-          <li>When and where was ENIAC built?</li>
+          <li>What are the application of PGM?</li>
+          <li>Are there other Python libraries for visualisation? </li>
+          <li>What are different Probablity graphical networks? </li>
         </ol>
       </div>
     );

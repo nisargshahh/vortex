@@ -10,9 +10,10 @@ export default class LandingPage extends Component {
         <div className="heading">
           <h1 className="vortex-name">Vortex</h1>
           <h3 className="the-pgm-simulator">The PGM simulator</h3>
+          <h3 className="downward-arrow"><a href="#functions">🢓</a></h3>
         </div>
 
-          <div className="list-of-functs">
+          <div className="list-of-functs" id="functions">
             <ul>
               <li>
                 <Link to="/">About PGM</Link>
