@@ -79,7 +79,7 @@ export default class Expt1 extends Component {
             distribution that they induce.
           </p>
         </ul>
-      
+
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>
@@ -88,6 +88,17 @@ export default class Expt1 extends Component {
           <li>Are there other Python libraries for visualisation? </li>
           <li>What are different Probablity graphical networks? </li>
         </ol>
+        <h3 className="expt-sub-heading">
+          <u>Simulation</u>
+        </h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+          quas temporibus quibusdam deserunt ea porro voluptates veritatis at
+          harum quidem repudiandae. Obcaecati, nobis natus ut eveniet harum
+          beatae aut dicta ea ad laborum repellat fuga explicabo qui. Ex
+          molestias impedit deleniti laudantium, mollitia incidunt doloribus
+          voluptatum necessitatibus distinctio nobis quos.
+        </p>
       </div>
     );
   }
