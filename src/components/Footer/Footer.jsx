@@ -23,19 +23,19 @@ export default function Footer() {
               <h6>Quick Links</h6>
               <ul class="footer-links">
                 <li>
-                  <a href="/">About Us</a>
+                  <a href="/about-pgm">About</a>
                 </li>
                 <li>
-                  <a href="/">Contact Us</a>
+                  <a href="/feedback">Contact Us</a>
                 </li>
                 <li>
-                  <a href="/">Contribute</a>
+                  <a href="/papers">Papers</a>
                 </li>
                 <li>
-                  <a href="/">Privacy Policy</a>
+                  <a href="/projects">Projects</a>
                 </li>
                 <li>
-                  <a href="/">Others</a>
+                  <a href="/module-obj">Objectives</a>
                 </li>
               </ul>
             </div>
