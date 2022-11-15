@@ -30,14 +30,14 @@ export default function navbar() {
             Other
           </Nav.Link>
           <NavDropdown title="Experiments">
-            <NavDropdown.Item href="/expt1">Expt 1</NavDropdown.Item>
-            <NavDropdown.Item href="/expt2">Expt 2</NavDropdown.Item>
-            <NavDropdown.Item href="/expt3">Expt 3</NavDropdown.Item>
-            <NavDropdown.Item href="/expt4">Expt 4</NavDropdown.Item> 
-            <NavDropdown.Item href="/expt5">Expt 5</NavDropdown.Item>
-            <NavDropdown.Item href="/expt6">Expt 6</NavDropdown.Item>
-            <NavDropdown.Item href="/expt7">Expt 7</NavDropdown.Item>
-            <NavDropdown.Item href="/expt8">Expt 8</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt1">Expt 1</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt2">Expt 2</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt3">Expt 3</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt4">Expt 4</NavDropdown.Item> 
+            <NavDropdown.Item href="/lo-expts/expt5">Expt 5</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt6">Expt 6</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt7">Expt 7</NavDropdown.Item>
+            <NavDropdown.Item href="/lo-expts/expt8">Expt 8</NavDropdown.Item>
           </NavDropdown>
           
         </Nav>
