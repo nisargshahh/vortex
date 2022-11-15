@@ -20,13 +20,13 @@ export default function navbar() {
           <Nav.Link className="nav-link" href="/">
             Home
           </Nav.Link>
-          <Nav.Link className="nav-link" href="/about">
+          <Nav.Link className="nav-link" href="/about-pgm">
             About
           </Nav.Link>
-          <Nav.Link className="nav-link" href="/contact">
+          <Nav.Link className="nav-link" href="/feedback">
             Contact
           </Nav.Link>
-          <Nav.Link className="nav-link" href="/other">
+          <Nav.Link className="nav-link" href="/module-obj">
             Other
           </Nav.Link>
           <NavDropdown title="Experiments">

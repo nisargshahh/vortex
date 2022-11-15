@@ -45,8 +45,8 @@ export default function Footer() {
         <div class="row">
           <p class="copyright-text">
             Created by
-            <a href="#"> Nisarg Shah</a>,<a href="#"> Hima Verma</a> and
-            <a href="#"> Sheetal Popat</a>.
+            <a href="https://github.com/nisargshahh"> Nisarg Shah</a>,<a href="https://github.com/hima-v"> Hima Verma</a> and
+            <a href="https://github.com/sheetal-12"> Sheetal Popat</a>.
           </p>
         </div>
       </footer>
