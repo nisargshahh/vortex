@@ -28,14 +28,14 @@ root.render(
       <Routes>
         <Route path="/" element={<App/>}></Route>
         <Route path="/lo-expts" element={<LOExpts/>}></Route>
-        <Route path="/expt1" element={<Expt1/>}></Route>
-        <Route path="/expt2" element={<Expt2/>}></Route>
-        <Route path="/expt3" element={<Expt3/>}></Route>
-        <Route path="/expt4" element={<Expt4/>}></Route>
-        <Route path="/expt5" element={<Expt5/>}></Route>
-        <Route path="/expt6" element={<Expt6/>}></Route>
-        <Route path="/expt7" element={<Expt7/>}></Route>
-        <Route path="/expt8" element={<Expt8/>}></Route>
+        <Route path="/lo-expts/expt1" element={<Expt1/>}></Route>
+        <Route path="/lo-expts/expt2" element={<Expt2/>}></Route>
+        <Route path="/lo-expts/expt3" element={<Expt3/>}></Route>
+        <Route path="/lo-expts/expt4" element={<Expt4/>}></Route>
+        <Route path="/lo-expts/expt5" element={<Expt5/>}></Route>
+        <Route path="/lo-expts/expt6" element={<Expt6/>}></Route>
+        <Route path="/lo-expts/expt7" element={<Expt7/>}></Route>
+        <Route path="/lo-expts/expt8" element={<Expt8/>}></Route>
         <Route path="/bayes-server" element={<BS/>}></Route>
         <Route path="/about-pgm" element={<AboutPGM/>}></Route>
         <Route path="/module-obj" element={<ModuleObj/>}></Route>
