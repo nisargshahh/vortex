@@ -35,13 +35,13 @@ export default class Expt1 extends Component {
             <ul>
               <li>1.Simple Graph</li>
               <p> A graph in which each edge connects two different vertices and where no two edges connect 
-              the same pair of vertices is called a simple graph. <br> For example,
+              the same pair of vertices is called a simple graph. For example,
 
                 </p>
               <li>2. Multi Graph</li>
               <p> A graph in which multiple edges may connect the same pair of vertices is called a multigraph. 
               Since there can be multiple edges between the same pair of vertices, the multiplicity of edge tells 
-              the number of edges between two vertices. <br> For example,
+              the number of edges between two vertices. For example,
                 </p>
             </ul>
           </p>
@@ -50,14 +50,14 @@ export default class Expt1 extends Component {
             A complete Graph is a special type of Simple Graph. 
             It is an un-directed graph in which each pair of graph vertices is connected by an edge.
             In other words,every node ‘u’ is adjacent to every other node ‘v’ in graph ‘G’.A complete graph would have n(n-1)/2 edges.
-            <br> For example,
+            For example,
           </p>
           <li className="lab-manual-heading">Clique</li>
           <p>
             A clique is a collection of vertices in an undirected graph G such that every two different vertices in the clique are nearby  
             implying that the induced subgraph is complete. A clique in an undirected graph is a complete subgraph of the given graph. 
-            A complete sub-graph is one in which all of its vertices are linked to all of its other vertices.<br>
-            Example:<br>
+            A complete sub-graph is one in which all of its vertices are linked to all of its other vertices.
+            Example:
             Consider a social networking program in which the vertices in a graph reflect people’s profiles 
             and the edges represent mutual acquaintance. A clique in this graph indicates a group of people who all know each other.
 
