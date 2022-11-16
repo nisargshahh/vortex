@@ -8,7 +8,12 @@ function moduleObj() {
     <div>
       <NavBar />
       <div className="module-obj">
-        Module obj
+        <h1 className="expt-heading">
+          <u>Module Objectives</u>
+        </h1>
+        <p>
+          
+        </p>
       </div>
       <Footer />
     </div>
