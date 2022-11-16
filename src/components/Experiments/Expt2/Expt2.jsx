@@ -5,38 +5,19 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Implement Graphs</h1>
+        <h1 className="expt-heading">Implement Graph Theory</h1>
         <h2 className="expt-sub-heading">
-          <u>Introduction</u>
+          <u>Aim</u>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          To implement Graph Theory 
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
+          <u>Objective</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
+         To generate a weighted directed graph and find the shortest path using All Pair Shortest Path algorithm in Python using NetworkX library. 
         </p>
 
         <h3 className="expt-sub-heading">
