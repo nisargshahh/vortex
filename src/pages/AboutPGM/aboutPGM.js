@@ -13,7 +13,7 @@ function AboutPGM() {
       <NavBar />
       <div className="about-pgm">
         <h1 className="expt-heading">
-          <u>Probabilistic Graphical Model</u>
+          <u>Probabilistic Graphical Models</u>
         </h1>
         <p>
           Probabilistic graphical models are a powerful framework for
@@ -71,6 +71,7 @@ function AboutPGM() {
           </p>
           <img className="about-img" src={Cyclic} alt="Cyclic DGM"></img>
         </ul>
+        <p>Source: <a href="https://en.wikipedia.org/wiki/Graphical_model">Wikipedia</a></p>
       </div>
       <Footer />
     </div>
