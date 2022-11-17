@@ -5,66 +5,47 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Experiment 3</h1>
+        <h1 className="expt-heading">Bayesian Network Modelling</h1>
         <h2 className="expt-sub-heading">
-          <u>Introduction</u>
+          <u>Aim</u>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          Construct a Bayesian Network on Bayes server.
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
+          <u>Theory</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
+          Bayesian belief network is key computer technology for dealing with probabilistic events and to solve a problem which has uncertainty. We can define a Bayesian network as:
+          A Bayesian network is a probabilistic graphical model which represents a set of variables and their conditional dependencies using a directed acyclic graph."
+          It is also called a Bayes network, belief network, decision network, or Bayesian model.
+          Bayesian networks are probabilistic, because these networks are built from a probability distribution, and also use probability theory for prediction and anomaly detection.
+          Real world applications are probabilistic in nature, and to represent the relationship between multiple events, we need a Bayesian network. It can also be used in various tasks including prediction, anomaly detection, diagnostics, automated insight, reasoning, time series prediction, and decision making under uncertainty.
         </p>
-
         <h3 className="expt-sub-heading">
-          <u>Features</u>
+          <u>Guide to Bayes Server</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          ratione repellendus accusantium earum dignissimos tempore id quam
-          ducimus magni consectetur harum, corrupti pariatur optio nobis qui quo
-          deserunt numquam quasi:
+          Bayes server is a platform for creating Bayesian Networks. Below is step by step guide to construct
         </p>
         <ul className="lab-manual">
-          <li className="lab-manual-heading">Lab Objectives</li>
+          <li className="lab-manual-heading">Step 1: Creating Gender node</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            distinctio ex quasi minus magni nobis sit fugit ab eius quo!
+            Node A representation of a random variable in a Bayesian network. Odds A ratio of the probability that an event will happen to the probability that it will not happen. Posterior distribution A probability distribution of a random variable composed of the prior distribution and the likelihood function of the data
             <ul>
-              <li>1. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>2. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>3. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>4. Lorem ipsum dolor sit amet consectetur.</li>
+              <li>1. Click New on the File tab to create a new empty network. </li>
+              <li>2. To add the Gender node, click Node on the Network tab, Editing group, to create a new node. This will launch the New node window.</li>
+              <li>3. Enter Gender in the Name text box.</li>
+              <li>4. In the Variable section, rename the states to the following values, by clicking on the name of each state, and typing the new name.
+                o	Female   o	Male </li>
             </ul>
           </p>
-          <li className="lab-manual-heading">Materials Required</li>
+          <li className="lab-manual-heading">Step 2: Creating hair length node </li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            minima laudantium rem est? Quaerat suscipit quis culpa illo, officia
-            doloribus.
+            <ul>
+              <li>1. </li>
+            </ul>
           </p>
           <li className="lab-manual-heading">Completion Times</li>
           <p>

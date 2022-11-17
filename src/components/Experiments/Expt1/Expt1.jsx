@@ -92,12 +92,7 @@ export default class Expt1 extends Component {
           <u>Simulation</u>
         </h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
-          quas temporibus quibusdam deserunt ea porro voluptates veritatis at
-          harum quidem repudiandae. Obcaecati, nobis natus ut eveniet harum
-          beatae aut dicta ea ad laborum repellat fuga explicabo qui. Ex
-          molestias impedit deleniti laudantium, mollitia incidunt doloribus
-          voluptatum necessitatibus distinctio nobis quos.
+          A histogram is an approximate representation of the distribution of numerical data. The term was first introduced by Karl Pearson.[1] To construct a histogram, the first step is to "bin" (or "bucket") the range of values—that is, divide the entire range of values into a series of intervals—and then count how many values fall into each interval. The bins are usually specified as consecutive, non-overlapping intervals of a variable.
         </p>
       </div>
     );
