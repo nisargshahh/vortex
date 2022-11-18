@@ -53,14 +53,11 @@ export default class Histogram extends Component {
         </h3>
         <div className="histo-para">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
-            minus repellat animi, tempore, corrupti debitis neque voluptatibus
-            illum veritatis similique maxime voluptas ut perferendis accusamus
-            iste molestias suscipit architecto! Eaque dolorum, unde hic expedita
-            sapiente neque adipisci voluptatem ipsum architecto vel perferendis
-            recusandae tenetur distinctio, exercitationem quos quibusdam
-            excepturi nihil dicta labore quasi aliquid quas corporis aperiam
-            quidem? Eum, illo!
+            A histogram is a graphical representation of a grouped frequency distribution with continuous classes. 
+      It is an area diagram and can be defined as a set of rectangles with bases along with the intervals between class boundaries
+      and with areas proportional to frequencies in the corresponding classes. In such representations, all the rectangles are adjacent since 
+      the base covers the intervals between class boundaries. The heights of rectangles are proportional to corresponding 
+      frequencies of similar classes and for different classes, the heights will be proportional to corresponding frequency densities.
           </p>
         </div>
         <button
