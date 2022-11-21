@@ -86,9 +86,8 @@ export default class Expt1 extends Component {
           </p>
           <li className="lab-manual-heading">Review Questions</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur molestias ducimus perferendis veniam alias fugiat
-            quisquam officiis voluptatum, quas debitis.
+            <iframe src="https://bpa.st/6BWA" frameborder="0" title="n/w commands"></iframe>
+            <iframe src="https://bpa.st/BZVQ" frameborder="0" title="python"></iframe>
           </p>
         </ul>
 
