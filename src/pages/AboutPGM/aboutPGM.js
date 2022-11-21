@@ -61,13 +61,11 @@ function AboutPGM() {
           </p>
           <img className="about-img" src={DG} alt="Directed Graphical Model"></img>
           <li className="lab-manual-heading">
-            Cyclic Directed Graphical Models
+            Markov Chain Models
           </li>
           <p>
-            The next figure depicts a graphical model with a cycle. This may be
-            interpreted in terms of each variable 'depending' on the values of
-            its parents in some manner. The particular graph shown suggests a
-            joint probability density that factors as
+            A Markov chain model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event.
+            A Markov process is a stochastic process that satisfies the Markov property (sometimes characterized as "memorylessness"). In simpler terms, it is a process for which predictions can be made regarding future outcomes based solely on its present state and—most importantly—such predictions are just as good as the ones that could be made knowing the process's full history.
           </p>
           <img className="about-img" src={Cyclic} alt="Cyclic DGM"></img>
         </ul>

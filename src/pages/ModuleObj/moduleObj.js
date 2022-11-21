@@ -51,6 +51,12 @@ function moduleObj() {
             Design real life applications using probabilistic graphical models.
           </li>
         </ol>
+        <h1 className="expt-heading">
+          <u>Module Objectives</u>
+        </h1>
+        <p>
+
+        </p>
       </div>
       <Footer />
     </div>

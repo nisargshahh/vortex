@@ -5,90 +5,34 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Experiment 4</h1>
-        <h2 className="expt-sub-heading">
-          <u>Introduction</u>
-        </h2>
+        <h1 className="expt-heading">Understanding Markov Chain Model with examples</h1>
+        <h3 className="expt-sub-heading">
+          <u>Aim</u>
+        </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          Understanding Markov Chains and their property with the help of examples and exploring Markov Chains using Python libraries like Pandas, Matplotlib and Numpy
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
+          <u>Theory</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
-        </p>
-
-        <h3 className="expt-sub-heading">
-          <u>Features</u>
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          ratione repellendus accusantium earum dignissimos tempore id quam
-          ducimus magni consectetur harum, corrupti pariatur optio nobis qui quo
-          deserunt numquam quasi:
         </p>
         <ul className="lab-manual">
-          <li className="lab-manual-heading">Lab Objectives</li>
+          <li className="lab-manual-heading">Markov Chains</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            distinctio ex quasi minus magni nobis sit fugit ab eius quo!
             <ul>
-              <li>1. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>2. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>3. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>4. Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Markov chains are a fairly common, and relatively simple, way to statistically model random processes. They have been used in many different domains, ranging from text generation to financial modeling. Overall, Markov Chains are conceptually quite intuitive, and are very accessible in that they can be implemented without the use of any advanced statistical or mathematical concepts. They are a great way to start learning about probabilistic modeling and data science techniques. </li>
+              <li> A Markov chain essentially consists of a set of transitions, which are determined by some probability distribution, that satisfy the Markov property.Observe how in the example, the probability distribution is obtained solely by observing transitions from the current day to the next. This illustrates the Markov property, the unique characteristic of Markov processes that renders them memoryless. This typically leaves them unable to successfully produce sequences in which some underlying trend would be expected to occur. For example, while a Markov chain may be able to mimic the writing style of an author based on word frequencies, it would be unable to produce text that contains deep meaning or thematic significance since these are developed over much longer sequences of text. They therefore lack the ability to produce context-dependent content since they cannot take into account the full chain of prior states.</li>
             </ul>
           </p>
-          <li className="lab-manual-heading">Materials Required</li>
+          <li className="lab-manual-heading">Markov Chain Python Libraries</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            minima laudantium rem est? Quaerat suscipit quis culpa illo, officia
-            doloribus.
-          </p>
-          <li className="lab-manual-heading">Completion Times</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium earum a nisi facilis ipsa libero accusamus dolore culpa
-            aspernatur esse?
-          </p>
-          <li className="lab-manual-heading">Activity Sections</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            alias consectetur, consequatur perferendis ipsum temporibus illo at!
-            Earum, accusantium iste.
-          </p>
-          <li className="lab-manual-heading">Step-by-Step Instructions</li>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eos
-            corporis perspiciatis id iste corrupti accusamus cupiditate
-            blanditiis culpa repellendus?
-          </p>
-          <li className="lab-manual-heading">Review Questions</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur molestias ducimus perferendis veniam alias fugiat
-            quisquam officiis voluptatum, quas debitis.
+            Let's try to code the example above in Python. And although in real life, you would probably use a library that encodes Markov Chains in a much efficient manner, the code should help you get started.
+            Let's first import some of the libraries you will use:
+            <li>1. Numpy</li>
+            <li>2. Pandas</li>
+            <li>3. Matplotlib</li>
           </p>
         </ul>
 
@@ -96,13 +40,18 @@ export default class Expt1 extends Component {
           <u>Questions</u>
         </h3>
         <ol>
-          <li>What is the operating system of the computer you use?</li>
-          <li>How much main memory does the computer you use have?</li>
-          <li>What output devices areconnected to the computer you use? </li>
-          <li>How much secondary storage does the computer you use have?</li>
-          <li>When and where was ENIAC built?</li>
+          <li>1. What do you mean by Markov Chain?</li>
+          <li>2. State the Markov Property?</li>
+          <li>3. What makes Markov network different from Bayesian Network? </li>
         </ol>
-      </div>
+        <h3 className="expt-sub-heading">
+          <u>References</u>
+        </h3>
+        <ol>
+          <li> <a href="https://towardsdatascience.com/hands-on-markov-chains-example-using-python-8138bf2bd971" > Markov Chains Using Python Libraries </a> </li>
+          <li> <a href="https://www.datacamp.com/tutorial/markov-chains-python-tutorial"> Code for implementing Markov Chains </a> </li>
+        </ol>
+      </div >
     );
   }
 }
