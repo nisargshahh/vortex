@@ -12,6 +12,6 @@ function NetworkSimulator() {
         <Footer />
       </div>
     );
-  }
+}
   
   export default NetworkSimulator;

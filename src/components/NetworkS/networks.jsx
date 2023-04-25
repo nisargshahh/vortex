@@ -6,7 +6,6 @@ export default class NetworkS extends Component {
     render() {
       return (
         <div >
-
           <button
             className="network-btn"
             onClick={() => {
