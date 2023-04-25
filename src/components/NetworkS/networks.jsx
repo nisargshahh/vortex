@@ -10,14 +10,12 @@ export default class NetworkS extends Component {
           <button
             className="network-btn"
             onClick={() => {
-                <Link to = "/network-simulator"> 
-                </Link>
+              NetworkSimulator();
             }}
           >
+            {" "}
             Go to simulation
           </button>
-          
-          
         </div>
       );
     }
