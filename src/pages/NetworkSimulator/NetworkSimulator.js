@@ -14,4 +14,4 @@ function NetworkSimulator() {
     );
 }
   
-  export default NetworkSimulator;
+export default NetworkSimulator;

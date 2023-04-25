@@ -9,7 +9,7 @@ export default class NetworkS extends Component {
           <button
             className="network-btn"
             onClick={() => {
-              NetworkSimulator();
+              NetworkSimulator()
             }}
           >
             {" "}
