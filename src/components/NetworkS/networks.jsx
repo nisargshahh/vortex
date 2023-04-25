@@ -6,17 +6,17 @@ export default class NetworkS extends Component {
     render() {
       return (
         <div >
-          <Link to= "/network-simulator">
+
           <button
             className="network-btn"
             onClick={() => {
-                NetworkSimulator()
+                <Link to = "/network-simulator"> 
+                </Link>
             }}
           >
-            {" "}
             Go to simulation
           </button>
-          </Link>
+          
           
         </div>
       );
