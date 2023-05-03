@@ -5,103 +5,42 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Decision Making using Decision Trees</h1>
+        <h1 className="expt-heading">7. Study on Decision Trees</h1>
         <h2 className="expt-sub-heading">
-          <u>Introduction</u>
+          <u>Aim</u>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          This experiment aims to study the implementation of ML concept of Decision Trees
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
+          <u>Theory</u>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
-        </p>
 
-        <h3 className="expt-sub-heading">
-          <u>Features</u>
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          ratione repellendus accusantium earum dignissimos tempore id quam
-          ducimus magni consectetur harum, corrupti pariatur optio nobis qui quo
-          deserunt numquam quasi:
-        </p>
-        <ul className="lab-manual">
-          <li className="lab-manual-heading">Lab Objectives</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            distinctio ex quasi minus magni nobis sit fugit ab eius quo!
-            <ul>
-              <li>1. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>2. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>3. Lorem ipsum dolor sit amet consectetur.</li>
-              <li>4. Lorem ipsum dolor sit amet consectetur.</li>
-            </ul>
-          </p>
-          <li className="lab-manual-heading">Materials Required</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            minima laudantium rem est? Quaerat suscipit quis culpa illo, officia
-            doloribus.
-          </p>
-          <li className="lab-manual-heading">Completion Times</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium earum a nisi facilis ipsa libero accusamus dolore culpa
-            aspernatur esse?
-          </p>
-          <li className="lab-manual-heading">Activity Sections</li>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            alias consectetur, consequatur perferendis ipsum temporibus illo at!
-            Earum, accusantium iste.
-          </p>
-          <li className="lab-manual-heading">Step-by-Step Instructions</li>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eos
-            corporis perspiciatis id iste corrupti accusamus cupiditate
-            blanditiis culpa repellendus?
-          </p>
-          <li className="lab-manual-heading">Review Questions</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur molestias ducimus perferendis veniam alias fugiat
-            quisquam officiis voluptatum, quas debitis.
-          </p>
-        </ul>
 
-        <h3 className="expt-sub-heading">
-          <u>Questions</u>
-        </h3>
-        <ol>
-          <li>What is the operating system of the computer you use?</li>
-          <li>How much main memory does the computer you use have?</li>
-          <li>What output devices areconnected to the computer you use? </li>
-          <li>How much secondary storage does the computer you use have?</li>
-          <li>When and where was ENIAC built?</li>
-        </ol>
+          Decision trees are a popular tool for decision-making and problem-solving in many fields, including business, healthcare, and finance. A decision tree is a visual representation of a decision-making process that helps to evaluate different options and their potential outcomes. <br></br>
+
+          To use decision trees in decision-making, you typically follow these steps: <br></br>
+
+          1. Define the problem: Clearly define the problem you are trying to solve or the decision you need to make. <br></br>
+
+          2. Identify the alternatives: Identify the available options for addressing the problem or making the decision. <br></br>
+
+          3. Determine the criteria: Determine the criteria or factors that are important in evaluating the alternatives. These may include things like cost, time, risk, and other relevant factors. <br></br>
+
+          4. Assign values or weights: Assign values or weights to each criterion based on its relative importance. <br></br>
+
+          5. Build the decision tree: Create a decision tree by representing each alternative as a branch and each criterion as a node. Each node should include the criteria, the values or weights assigned to them, and the potential outcomes associated with each alternative. <br></br>
+
+          6. Evaluate the options: Evaluate the options by following each branch of the decision tree and calculating the expected outcome for each alternative. This can be done using probability or other statistical methods. <br></br>
+
+          7. Make the decision: Once you have evaluated all the options and calculated the expected outcomes, you can make the decision based on the option that has the highest expected outcome. <br></br>
+
+          8. Test the decision: Finally, test the decision by monitoring its implementation and evaluating its effectiveness over time. <br></br>
+
+          Using decision trees can help you to make better, more informed decisions by providing a structured approach to evaluating options and their potential outcomes. <br></br>
+        </p>
       </div>
     );
   }
