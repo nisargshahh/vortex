@@ -5,7 +5,7 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Experiment 7</h1>
+        <h1 className="expt-heading">Decision Making using Decision Trees</h1>
         <h2 className="expt-sub-heading">
           <u>Introduction</u>
         </h2>

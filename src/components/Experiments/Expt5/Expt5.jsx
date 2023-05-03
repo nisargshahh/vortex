@@ -5,42 +5,34 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Experiment 5</h1>
+        <h1 className="expt-heading">5. Implementing Hidden Markov Model</h1>
         <h2 className="expt-sub-heading">
-          <u>Introduction</u>
+          <u>Aim</u>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          aliquam. Reprehenderit repellendus tenetur cumque eius iusto adipisci
-          mollitia nam impedit reiciendis blanditiis voluptatibus, praesentium
-          accusamus magnam numquam fugit, debitis quo deserunt pariatur
-          explicabo doloremque? Ducimus et neque inventore, omnis dignissimos
-          veniam accusantium rem animi sed autem porro quo. Perspiciatis omnis
-          ipsa quasi voluptate nesciunt voluptatem repellendus ad exercitationem
-          molestias dolorum dolores, praesentium adipisci saepe minima veniam
-          harum asperiores ipsam ea aliquid et temporibus cum atque obcaecati.
-          Doloribus commodi excepturi consequuntur, similique magni atque
-          impedit harum odio, quis amet omnis? Perferendis impedit harum fuga
-          totam accusantium illum iusto, temporibus labore animi?
+          The aim of this experiment is to understand the Hidden Markov Models, and analyse how they are different from the traditional HMM.
         </p>
-
-        <h3 className="expt-sub-heading">
-          <u>Acknowlegdements</u>
-        </h3>
+        <h2 className="expt-sub-heading">
+          <u>Theory</u>
+        </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          laudantium iure nostrum aliquid ullam voluptates impedit corrupti
-          reiciendis dolores quis sed nihil, deleniti natus qui nemo! Velit
-          earum maiores in harum, sit ipsum? Voluptatem, quibusdam minus vero
-          recusandae sunt distinctio obcaecati aut voluptatum culpa nemo amet
-          non, incidunt illum placeat modi! Quaerat voluptate ipsam quod autem,
-          ipsum aut non aspernatur error voluptatibus illum eveniet nemo. Saepe
-          autem excepturi deserunt soluta, magnam sint totam rem commodi error
-          laudantium perferendis corrupti incidunt?
+          Hidden Markov Models (HMMs) are statistical models used to model time-series data,
+          where the underlying states of the system generating the data are not directly observable,
+          but can only be inferred from the observed data. HMMs are widely used in many fields such as
+          speech recognition, natural language processing, finance, bioinformatics, and more. <br></br>
+          An HMM consists of a sequence of hidden states and a sequence of observed outputs.
+          The hidden states are not directly observable, but are assumed to generate the observed outputs.
+          Each hidden state in the sequence is assumed to depend only on the previous state,
+          and the current observed output depends only on the current state. Therefore, an HMM can be thought of
+          as a "memoryless" probabilistic model that can capture dependencies over time. <br></br>
+          Two Main Questions in Markov-model are answered: <br></br>
+          1. Probability of particular sequences of state z? <br></br>
+          2. How do we estimate the parameter of state transition matrix A to maximize the likelihood of the observed sequence? <br></br>
+
         </p>
 
         <h3 className="expt-sub-heading">
-          <u>Features</u>
+          <u>Theory</u>
         </h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
@@ -91,7 +83,11 @@ export default class Expt1 extends Component {
             quisquam officiis voluptatum, quas debitis.
           </p>
         </ul>
-
+        <h3 className="expt-sub-heading">
+          <u>Visualization</u>
+          <p>
+          </p>
+        </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>

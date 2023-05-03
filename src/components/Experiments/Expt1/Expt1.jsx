@@ -5,7 +5,7 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Implement Probability Theory</h1>
+        <h1 className="expt-heading">1. Implement Probability Theory</h1>
         <h2 className="expt-sub-heading">
           <u>Aim</u>
         </h2>

@@ -5,7 +5,7 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Bayesian Network Modelling</h1>
+        <h1 className="expt-heading">3. Bayesian Network Modelling</h1>
         <h2 className="expt-sub-heading">
           <u>Aim</u>
         </h2>
@@ -104,11 +104,10 @@ export default class Expt1 extends Component {
           <u>Questions</u>
         </h3>
         <ol>
-          <li>What is the operating system of the computer you use?</li>
-          <li>How much main memory does the computer you use have?</li>
-          <li>What output devices areconnected to the computer you use? </li>
-          <li>How much secondary storage does the computer you use have?</li>
-          <li>When and where was ENIAC built?</li>
+          <li>Can you explain what a Bayesian Network is and how it is used in probabilistic modeling? </li>
+          <li>How do you go about specifying the structure of a Bayesian Network, and what considerations should be taken into account when doing so? </li>
+          <li>How are probabilities represented and calculated in a Bayesian Network, and what algorithms can be used to perform inference on a network?</li>
+          <li>What are some potential limitations or criticisms of Bayesian Networks, and how might they be addressed or mitigated in practice?</li>
         </ol>
       </div>
     );

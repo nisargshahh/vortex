@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!Meta tag is used for extra info, utf 8 is a way of encoding from machine code to human readable>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="markovmodel.css" />
+        <title> Markov Chain Iframe </title>
+</head>
+
+<body>
+    <iframe id="markov-chain"
+        src="https://setosa.io/markov/index.html#%7B%22tm%22%3A%5B%5B0.5%2C0.5%5D%2C%5B0.5%2C0.5%5D%5D%7D" height="300"
+        width="700">
+        <div class="st-diagram ng-isolate-scope" states="states" transition-matrix="transitionMatrix"
+            style="width:100%;height:230px;display:block;" center="diagramCenter" duration="duration"><svg width="1000"
+                height="230">
+                <g transform="translate(500,115)">
+                    <g transform="translate(-500,-115)">
+                        <g class="links">
+                            <path marker-end="url(#linkMarker-0-0)" class="link"
+                                style="stroke: rgb(31, 119, 180); stroke-width: 7.07107;"
+                                d="M485.6085809801788,25.368073331682645 C531.8025576057431,6.233901713428157 529.6348300924957,76.03074968561361 492.67964879204425,60.723412391010015">
+                            </path>
+                            <path marker-end="url(#linkMarker-0-1)" class="link"
+                                style="stroke: rgb(31, 119, 180); stroke-width: 7.07107;"
+                                d="M463.7825700379039,78.76524761402493S453.22950714848434,132.67826344487275 496.8052620247207,166.13172364395305">
+                            </path>
+                            <path marker-end="url(#linkMarker-1-0)" class="link"
+                                style="stroke: rgb(255, 127, 14); stroke-width: 7.07107;"
+                                d="M536.2174299620962,151.23475238597524S546.7704928515157,97.32173655512742 503.1947379752793,63.86827635604712">
+                            </path>
+                            <path marker-end="url(#linkMarker-1-1)" class="link"
+                                style="stroke: rgb(255, 127, 14); stroke-width: 7.07107;"
+                                d="M542.6756902672831,176.34765542085563 C588.8696668928475,157.21348380260113 586.7019393796,227.0103317747866 549.7467580791485,211.702994480183">
+                            </path>
+                        </g>
+                        <g class="nodes">
+                            <g class="node" transform="translate(471.4664453564478,39.510208955413596)"
+                                style="fill: rgb(31, 119, 180);">
+                                <circle r="20"></circle><text transform="translate(0,5)">A</text>
+                            </g>
+                            <g class="node" transform="translate(528.5335546435522,190.48979104458658)"
+                                style="fill: rgb(255, 127, 14);">
+                                <circle r="20"></circle><text transform="translate(0,5)">B</text>
+                            </g>
+                        </g>
+                        <g class="currentState"
+                            transform="translate(529.0636672843008,187.9634139561787) scale(1.934060736,1.934060736)"
+                            style="opacity: 1;">
+                            <circle r="10"></circle>
+                        </g>
+                    </g>
+                </g>
+                <defs>
+                    <marker class="linkMarker" id="linkMarker-0-0" orient="auto" markerWidth="2" markerHeight="4"
+                        refX="0" refY="2">
+                        <path d="M0,0 V4 L2,2 Z" style="fill: rgb(31, 119, 180);"></path>
+                    </marker>
+                    <marker class="linkMarker" id="linkMarker-0-1" orient="auto" markerWidth="2" markerHeight="4"
+                        refX="0" refY="2">
+                        <path d="M0,0 V4 L2,2 Z" style="fill: rgb(31, 119, 180);"></path>
+                    </marker>
+                    <marker class="linkMarker" id="linkMarker-1-0" orient="auto" markerWidth="2" markerHeight="4"
+                        refX="0" refY="2">
+                        <path d="M0,0 V4 L2,2 Z" style="fill: rgb(255, 127, 14);"></path>
+                    </marker>
+                    <marker class="linkMarker" id="linkMarker-1-1" orient="auto" markerWidth="2" markerHeight="4"
+                        refX="0" refY="2">
+                        <path d="M0,0 V4 L2,2 Z" style="fill: rgb(255, 127, 14);"></path>
+                    </marker>
+                </defs>
+            </svg></div>class=""
+    </iframe>
+
+</body>
+
+</html>

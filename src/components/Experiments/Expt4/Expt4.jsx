@@ -5,7 +5,7 @@ export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
-        <h1 className="expt-heading">Understanding Markov Chain Model with examples</h1>
+        <h1 className="expt-heading">4. Understanding Markov Chain Model with examples</h1>
         <h3 className="expt-sub-heading">
           <u>Aim</u>
         </h3>
