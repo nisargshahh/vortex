@@ -1,6 +1,8 @@
 .main {
     padding: 20px;
-    background-color: #e6f4ff;
+    /* background-color: #ffffff; */
+    background-image: url("../../components/Images/bgimg.jpeg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
@@ -9,7 +11,7 @@
     align-items: flex-start;
     padding-top: 70px;
     font-weight: bold;
-    color: #1f5172;
+    color: #b22222;
     text-align: center;
     font-size: 11vw;
     width: 100%;
@@ -19,7 +21,7 @@
 .the-pgm-simulator {
     align-self: start;
     font-weight: bold;
-    color: #193040;
+    color: #0a0a0a;
     text-align: center;
     font-size: 3.2vw;
     width: 100%;
@@ -27,13 +29,13 @@
     padding-left: 20px;
 }
 
-.downward-arrow{
+.downward-arrow {
     text-align: center;
     font-size: 50px;
     cursor: pointer;
 }
 
-.downward-arrow a{
+.downward-arrow a {
     text-decoration: none;
     color: #193040;
 }
@@ -57,7 +59,7 @@
     margin-right: auto;
     margin-top: 15px;
     text-decoration: none;
-    background-color: #327eb1;
+    background-color: #960019;
     padding: 15px;
     width: 50%;
 }

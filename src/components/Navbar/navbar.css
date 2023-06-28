@@ -1,24 +1,26 @@
-.nav-bar{
+.nav-bar {
   padding-left: 20px;
   padding-right: 20px;
   /* position: sticky; */
 }
 
-.bg-blueBg{
-  background-color: #22577E;
+.bg-blueBg {
+  background-color: #810b07;
 }
 
-.nav-logo-img{
+.nav-logo-img {
   width: 150px;
   padding: 0;
 }
 
-.nav-link{
+.nav-link {
   margin: 5px;
+  font-size: large;
 }
-@media (min-width: 576px){
+
+@media (min-width: 576px) {
   .navbar-expand-sm .navbar-collapse {
-    display: flex!important;
+    display: flex !important;
     flex-basis: auto;
     justify-content: end;
   }

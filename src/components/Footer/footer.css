@@ -1,31 +1,32 @@
 .site-footer {
-    background-color: #22577E;
+    background-color: #ffffff;
     padding: 45px 0 20px 0;
-    font-size: 15px;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.701);
     width: 100%;
 }
 
 .site-footer h6 {
-    color: #fff;
-    font-size: 16px;
+    color: rgba(0, 0, 0, 0.701);
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px
 }
 
 .site-footer a {
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(2, 2, 2, 0.701);
     text-decoration: none;
 }
 
 .site-footer a:hover {
-    color: rgba(142, 142, 253, 0.701);
+    color: rgba(0, 0, 0, 0.701);
     text-decoration: none;
 }
 
 .footer-links {
     padding-left: 0;
+    /* padding: 0px 45 0px 45; */
     list-style: none
 }
 
@@ -34,13 +35,13 @@
 }
 
 .footer-links a {
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(129, 11, 7, 0.701);
 }
 
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: rgba(142, 142, 253, 0.701);
+    color: rgba(96, 20, 15, 0.785);
     text-decoration: none;
 }
 
@@ -65,11 +66,11 @@
         padding-bottom: 0
     }
 
-    .site-footer ,
-    .site-footer #quick-links{
-        text-align: center
+    .site-footer,
+    .site-footer #quick-links {
+        text-align: right
     }
-    
+
 }
 
 .row {
@@ -78,5 +79,10 @@
 }
 
 #quick-links {
-    text-align: right;
+    text-align: left;
 }
+
+/* .web {
+    width: 40px;
+    margin: 10px;
+} */
