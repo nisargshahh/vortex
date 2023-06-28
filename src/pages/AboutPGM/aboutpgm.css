@@ -1,9 +1,9 @@
-.about-pgm{
+.about-pgm {
     padding-left: 30px;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
-    background-color: #e6f4ff;
+    background-color: #f1f1f1;
 }
 
 .expt-heading {
@@ -11,7 +11,7 @@
     font-size: 35px;
 }
 
-.about-img{
+.about-img {
     width: 100px;
     margin: 10px;
 }

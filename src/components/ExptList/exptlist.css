@@ -1,9 +1,9 @@
-.expt-list{
+.expt-list {
     padding-top: 80px;
-    background-color: #e6f4ff;
+    background-color: #f1f1f1;
 }
 
-.loe-heading{
+.loe-heading {
     text-align: center;
     font-size: 40px;
 }
@@ -24,7 +24,7 @@
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
-    background-color: #327eb1;
+    background-color: #960019;
     padding: 20px;
     width: 35%;
 }

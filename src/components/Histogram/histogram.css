@@ -2,32 +2,32 @@
     padding-left: 30px;
     padding-right: 50px;
     padding-bottom: 30px;
-    background-color: #e6f4ff;
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
 }
 
-.histo-btn{
+.histo-btn {
     padding: 10px 20px 10px 20px;
-    background-color: #327eb1;
+    background-color: #b22222;
     color: white;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
 }
 
-.histo-heading{
+.histo-heading {
     text-align: center;
     font-size: 35px;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
-.histo-para{
+.histo-para {
     text-align: center;
     margin-bottom: 30px;
 }
 
-#histo-data{
+#histo-data {
     text-align: center;
 }
