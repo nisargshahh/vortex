@@ -25,7 +25,7 @@ export default function Footer() {
               <img className="letterhead2" src={letterhead2} alt="K J Somaiya"></img>
             </div>
 
-            <div class="col-xs-2 col-md-5" id="quick-links">
+            <div class="col-xs-2 col-md-6" id="quick-links">
               <h6>Developed and Maintained by: </h6>
               <ul class="footer-links">
                 <li>
@@ -51,7 +51,7 @@ export default function Footer() {
             border: "none",
           }}
         />
-        <div class="row">
+        <div class="row" id="second-row">
           <p class="copyright-text">
             Created by
             <a href="https://github.com/nisargshahh"> Nisarg Shah</a>,<a href="https://github.com/hima-v"> Hima Verma</a> and

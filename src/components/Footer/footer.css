@@ -30,6 +30,10 @@
     list-style: none
 }
 
+.site-footer #second-row {
+    width: 100%;
+}
+
 .footer-links li {
     display: block
 }
