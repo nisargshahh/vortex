@@ -30,6 +30,10 @@
     list-style: none
 }
 
+.site-footer #second-row {
+    width: 100%;
+}
+
 .footer-links li {
     display: block
 }
@@ -56,19 +60,21 @@
 
 @media (max-width:991px) {
     .site-footer [class^=col-] {
-        margin-bottom: 30px
+        margin-bottom: 30px;
+        overflow-x: hidden;
     }
 
 }
 
 @media (max-width:767px) {
     .site-footer {
-        padding-bottom: 0
+        overflow-x: hidden;
     }
 
     .site-footer,
     .site-footer #quick-links {
-        text-align: right
+        text-align: center;
+        padding: 0;
     }
 
 }
