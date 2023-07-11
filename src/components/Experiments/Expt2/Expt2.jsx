@@ -86,6 +86,9 @@ export default class Expt1 extends Component {
         </ul>
         <h3 className="expt-sub-heading">
           <u>Code</u>
+          <ol>
+          <li> <a href="https://colab.research.google.com/drive/14ku6wS7U8dLh0I25ad3XhtxDEdvf8YMx?usp=sharinggi" > Program to find number of cliques in a Graph. </a> </li>
+        </ol>
         </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
