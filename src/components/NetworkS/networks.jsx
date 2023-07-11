@@ -1,22 +1,20 @@
 import React, { Component } from "react";
-import NetworkSimulator from "../../pages/NetworkSimulator/NetworkSimulator";
 import "./networks.css";
 
 export default class NetworkS extends Component {
+  handleClick = () => {
+    window.open("https://graphonline.ru/en/", "_blank");
+  };
+
     render() {
       return (
-        <div >
-          <button
-            className="network-btn"
-            onClick={() => {
-              NetworkSimulator()
-            }}
-          >
-            {" "}
+        <div className="network-sim">
+          <button 
+          className="network-btn"
+          onClick={this.handleClick}>
             Go to simulation
           </button>
         </div>
       );
     }
   }
-  
