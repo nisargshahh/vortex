@@ -13,11 +13,11 @@ function feedback() {
           <u>Feedback Form</u>
         </h1>
         <div className="feedback-form">
-         <iframe src="https://forms.gle/nnFFtgzASkJ8wkU27" title="g-form" className="g-form"></iframe>
+         <iframe src="https://forms.gle/KjKAPckL7gGQiz357" title="g-form" className="g-form"></iframe>
         </div>
       </div>
       <div className="feedback-mob">
-        <p>Google Form Link for Feedback: <a href="https://forms.gle/nnFFtgzASkJ8wkU27">Link</a></p>
+        <p>Google Form Link for Feedback: <a href="https://forms.gle/KjKAPckL7gGQiz357">Link</a></p>
         
       </div>
       <Footer />
