@@ -41,6 +41,12 @@ export default class Expt1 extends Component {
 
           Using decision trees can help you to make better, more informed decisions by providing a structured approach to evaluating options and their potential outcomes. <br></br>
         </p>
+        <h3 className="expt-sub-heading">
+          <u>References</u>
+          <ul>
+          <li> <a href="https://www.geeksforgeeks.org/decision-tree-implementation-python/" > Program for implementing Decision Tree.  </a> </li>
+        </ul>
+        </h3>
       </div>
     );
   }
