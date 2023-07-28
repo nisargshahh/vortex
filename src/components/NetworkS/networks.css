@@ -1,6 +1,12 @@
+.network-sim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .network-btn{
     padding: 10px 20px 10px 20px;
-    background-color: #327eb1;
+    background-color: #810b07;
     color: white;
     margin-left: auto;
     margin-right: auto;
