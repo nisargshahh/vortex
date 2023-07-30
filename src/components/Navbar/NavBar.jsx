@@ -9,7 +9,7 @@ export default function navbar() {
       <Navbar bg="blueBg" variant="dark" sticky="top" expand='sm' collapseOnSelect className="nav-bar">
         <Navbar.Brand className="nav-img">
           <Nav.Link href="/"><img
-            src={require("../Images/Vortex.png")}
+            src={require("../Images/somaiya-logo-v1.png")}
             alt="Vortex"
             className="nav-logo-img"
           /></Nav.Link>
@@ -23,23 +23,22 @@ export default function navbar() {
             <Nav.Link className="nav-link" href="/about-pgm">
               <b>About</b>
             </Nav.Link>
+            <NavDropdown title=<b>Experiments</b>>
+              <NavDropdown.Item href="/lo-expts/expt1">Probability Theory</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt2">Graph Theory</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt3">Bayesian Network</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt4">Markov Chain Model</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt5">Hidden Markov Model</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt6">MLE</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt7">Decion Tree</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt8">Case Study</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link className="nav-link" href="/feedback">
-              <b>Contact</b>
+              <b>Feedback</b>
             </Nav.Link>
             <Nav.Link className="nav-link" href="/module-obj">
-              <b>Other</b>
+              <b>Course Objectives</b>
             </Nav.Link>
-            <NavDropdown title=<b>Experiments</b>>
-              <NavDropdown.Item href="/lo-expts/expt1">Expt 1</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt2">Expt 2</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt3">Expt 3</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt4">Expt 4</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt5">Expt 5</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt6">Expt 6</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt7">Expt 7</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt8">Expt 8</NavDropdown.Item>
-            </NavDropdown>
-
           </Nav>
         </NavbarCollapse>
       </Navbar>

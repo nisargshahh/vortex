@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import "./expt3.css";
-
 export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
         <h1 className="expt-heading">3. Bayesian Network Modelling</h1>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Aim</u>
-        </h2>
+        </h3>
         <p>
           Construct a Bayesian Network on Bayes server.
         </p>
@@ -99,7 +98,6 @@ export default class Expt1 extends Component {
             </u1>
           </p>
         </ul>
-
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>

@@ -1,5 +1,17 @@
 import React, { Component } from "react";
 import "./expt4.css";
+import styled from "styled-components";
+
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
 
 export default class Expt1 extends Component {
   render() {
@@ -35,7 +47,17 @@ export default class Expt1 extends Component {
             <li>3. Matplotlib</li>
           </p>
         </ul>
-
+        <h3 className="expt-sub-heading">
+          <ol>
+            <a href="https://colab.research.google.com/drive/1ne_MLRsZA4Eq2CW1mKVotstcSo3JZH-V#scrollTo=Xx3Ut8fXqTeW" target="_blank" rel="noreferrer">
+              <Button> Code </Button>
+            </a>
+            <br></br>
+            <a href="" target="_blank">
+              <Button> Theory </Button>
+            </a>
+          </ol>
+        </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>
@@ -43,13 +65,6 @@ export default class Expt1 extends Component {
           <li>1. What do you mean by Markov Chain?</li>
           <li>2. State the Markov Property?</li>
           <li>3. What makes Markov network different from Bayesian Network? </li>
-        </ol>
-        <h3 className="expt-sub-heading">
-          <u>References</u>
-        </h3>
-        <ol>
-          <li> <a href="https://towardsdatascience.com/hands-on-markov-chains-example-using-python-8138bf2bd971" > Markov Chains Using Python Libraries </a> </li>
-          <li> <a href="https://www.datacamp.com/tutorial/markov-chains-python-tutorial"> Code for implementing Markov Chains </a> </li>
         </ol>
       </div >
     );

@@ -1,14 +1,26 @@
 import React, { Component } from "react";
 import "./expt6.css";
+import styled from "styled-components";
+
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
 
 export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
         <h1 className="expt-heading">6. Study on Maximum Likelihood Estimation</h1>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Aim</u>
-        </h2>
+        </h3>
         <p>
           This experiment aims to study the statistical method called Maximum Likelihood Estimation
         </p>
@@ -26,14 +38,17 @@ export default class Expt1 extends Component {
           3. Flexibility: MLE can be applied to a wide range of statistical models, including both simple and complex models. It is also possible to use MLE to estimate the parameters of non-standard distributions, which can be useful in many real-world applications. <br></br>
           4. Consistency: MLE produces estimates that become more accurate as the sample size increases. This is known as consistency and is a desirable property for any statistical method. <br></br>
         </p>
-
         <h3 className="expt-sub-heading">
-          <u>Simulation Links</u>
+          <ol>
+            <a href="https://colab.research.google.com/drive/1RRBbwvpSEiujefxGQm-yGmlj-h3wurtu#scrollTo=NIUs1GDq1f8f" target="_blank" rel="noreferrer">
+              <Button> Code </Button>
+            </a>
+            <br></br>
+            <a href="" target="_blank">
+              <Button> Theory </Button>
+            </a>
+          </ol>
         </h3>
-        <ol>
-          <li> <a href="https://colab.research.google.com/drive/1hWQTtBACd_vo9xW1-VKmtIw0OZTVE9kd?usp=sharing" > Basic understanding of MLE </a> </li>
-          <li> <a href="https://colab.research.google.com/drive/1jqPyyXo4vm8EyrIpDi8da8i8m9zV8hIr#scrollTo=takqBaX6S2Ho"> Code for implementing MLE </a> </li>
-        </ol>
       </div>
     );
   }

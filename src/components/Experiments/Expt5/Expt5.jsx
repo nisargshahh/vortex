@@ -1,20 +1,31 @@
 import React, { Component } from "react";
 import "./expt5.css";
+import styled from "styled-components";
 
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
 export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
         <h1 className="expt-heading">5. Implementing Hidden Markov Model</h1>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Aim</u>
-        </h2>
+        </h3>
         <p>
           The aim of this experiment is to understand the Hidden Markov Models, and analyse how they are different from the traditional HMM.
         </p>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Theory</u>
-        </h2>
+        </h3>
         <p>
           Hidden Markov Models (HMMs) are statistical models used to model time-series data,
           where the underlying states of the system generating the data are not directly observable,
@@ -35,8 +46,6 @@ export default class Expt1 extends Component {
           <u>Features</u>
         </h3>
         <p>
-
-
           Hidden Markov Models (HMMs) are a type of statistical model that are widely used in speech recognition, natural language processing, bioinformatics, and other fields. The main features of HMMs include: <br></br>
 
           1. States: HMMs are based on a set of states, each of which represents a particular situation or condition. <br></br>
@@ -56,6 +65,17 @@ export default class Expt1 extends Component {
           8. Applications: HMMs are widely used in speech recognition, natural language processing, bioinformatics, and other fields where sequential data is common. They are particularly useful for modeling time series data and for making predictions based on past observations. <br></br>
         </p>
         <h3 className="expt-sub-heading">
+          <ol>
+            <a href="https://colab.research.google.com/drive/1dLboGKNlYJ5COboDM3rSW5onoQtpmtWb#scrollTo=Pl4o8q7QrPW7" target="_blank" rel="noreferrer">
+              <Button> Code </Button>
+            </a>
+            <br></br>
+            <a href="" target="_blank">
+              <Button> Theory </Button>
+            </a>
+          </ol>
+        </h3>
+        <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>
         <ol>
@@ -63,12 +83,6 @@ export default class Expt1 extends Component {
           <li>HMM and Markov Model difference</li>
           <li>How are Markov Models implemented? What is the real life use of HMM?</li>
         </ol>
-        <h3 className="expt-sub-heading">
-          <u>References</u>
-          <ul>
-          <li> <a href="https://www.geeksforgeeks.org/hidden-markov-model-in-machine-learning/" > Program for implementing HMM.  </a> </li>
-        </ul>
-        </h3>
       </div>
     );
   }
