@@ -56,11 +56,6 @@ export default class Expt1 extends Component {
           8. Applications: HMMs are widely used in speech recognition, natural language processing, bioinformatics, and other fields where sequential data is common. They are particularly useful for modeling time series data and for making predictions based on past observations. <br></br>
         </p>
         <h3 className="expt-sub-heading">
-          <u>Visualization</u>
-          <p>
-          </p>
-        </h3>
-        <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>
         <ol>
@@ -68,6 +63,12 @@ export default class Expt1 extends Component {
           <li>HMM and Markov Model difference</li>
           <li>How are Markov Models implemented? What is the real life use of HMM?</li>
         </ol>
+        <h3 className="expt-sub-heading">
+          <u>References</u>
+          <ul>
+          <li> <a href="https://www.geeksforgeeks.org/hidden-markov-model-in-machine-learning/" > Program for implementing HMM.  </a> </li>
+        </ul>
+        </h3>
       </div>
     );
   }

@@ -79,7 +79,12 @@ export default class Expt1 extends Component {
             distribution that they induce.
           </p>
         </ul>
-
+        <h3 className="expt-sub-heading">
+          <u>Code</u>
+          <ul>
+          <li> <a href="https://colab.research.google.com/drive/17pIrmSB2G7k0ZTQyBXdWnkTmQtIlDiVp?usp=sharing" > Program for calculating the probability of balls drawn from a box.  </a> </li>
+        </ul>
+        </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>

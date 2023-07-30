@@ -10,7 +10,7 @@ function moduleObj() {
       <NavBar />
       <div className="module-obj">
         <h1 className="expt-heading">
-          <u>Module Objectives</u>
+          <u>Course Objectives</u>
         </h1>
         <ol className="mod-ob">
           <li>
@@ -29,6 +29,11 @@ function moduleObj() {
             To develop the knowledge and skills necessary to apply these models
             to solve real world problems
           </li>
+          </ol>
+          <h1 className="expt-heading">
+          <u>Course Outcomes:</u>
+        </h1>
+          <ol>
           <li>Describe basic concepts of probabilistic graphical modelling</li>
           <li>
             Model and extract inference from various graphical models like
