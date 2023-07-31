@@ -1,13 +1,26 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 import "./expt2.css";
+
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
+
 export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
         <h1 className="expt-heading">2. Implement Graph Theory</h1>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Aim</u>
-        </h2>
+        </h3>
         <p>
           To implement Graph Theory in Python using NetworkX library.
         </p>
@@ -69,7 +82,7 @@ export default class Expt1 extends Component {
         <ul className="lab-manual">
           <li className="lab-manual-heading">Step 1: Installing dependencies</li>
           <p>
-            The first thing you’ll need to do is install Matplotlib and Networkx packages on your machine using Pip by running the following command in the terminal: <br></br>
+            The first thing you will need to do is install Matplotlib and Networkx packages on your machine using Pip by running the following command in the terminal: <br></br>
             pip install matplotlib <br></br>
             pip install networkx
           </p>
@@ -85,10 +98,15 @@ export default class Expt1 extends Component {
           </p>
         </ul>
         <h3 className="expt-sub-heading">
-          <u>Code</u>
           <ol>
-          <li> <a href="https://colab.research.google.com/drive/14ku6wS7U8dLh0I25ad3XhtxDEdvf8YMx?usp=sharinggi" > Program to find number of cliques in a Graph. </a> </li>
-        </ol>
+            <a href="https://colab.research.google.com/drive/1Z-0qkWPsmhQzBWxtRrNb5b9hjvUc3xbQ#scrollTo=HUKl_Nz10klC" target="_blank">
+              <Button> Code </Button>
+            </a>
+            <br></br>
+            <a href="" target="_blank">
+              <Button> Theory </Button>
+            </a>
+          </ol>
         </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>

@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./landingpage.css";
 import "../../App"
-import bgimg from "../../components/Images/bgimg.jpeg"
-
 export default class LandingPage extends Component {
   render() {
     return (

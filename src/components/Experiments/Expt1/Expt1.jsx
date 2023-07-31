@@ -1,14 +1,26 @@
 import React, { Component } from "react";
 import "./expt1.css";
+import styled from "styled-components";
+
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
 
 export default class Expt1 extends Component {
   render() {
     return (
       <div className="expt-template">
         <h1 className="expt-heading">1. Implement Probability Theory</h1>
-        <h2 className="expt-sub-heading">
+        <h3 className="expt-sub-heading">
           <u>Aim</u>
-        </h2>
+        </h3>
         <p>Implement probabilistic graphical models using Python libraries</p>
 
         <h3 className="expt-sub-heading">
@@ -80,10 +92,15 @@ export default class Expt1 extends Component {
           </p>
         </ul>
         <h3 className="expt-sub-heading">
-          <u>Code</u>
-          <ul>
-          <li> <a href="https://colab.research.google.com/drive/17pIrmSB2G7k0ZTQyBXdWnkTmQtIlDiVp?usp=sharing" > Program for calculating the probability of balls drawn from a box.  </a> </li>
-        </ul>
+          <ol>
+            <a href="https://colab.research.google.com/drive/1kj4AB_aVA2Y2taPHPU72AsR11Io5oR8B#scrollTo=RVT5r5AROKfH" target="_blank">
+              <Button> Code </Button>
+            </a>
+            <br></br>
+            <a href="https://jonathan-hui.medium.com/machine-learning-graphical-model-b68b0c27a749" target="_blank">
+              <Button> Theory </Button>
+            </a>
+          </ol>
         </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
