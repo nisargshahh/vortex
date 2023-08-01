@@ -93,11 +93,11 @@ export default class Expt1 extends Component {
         </ul>
         <h3 className="expt-sub-heading">
           <ol>
-            <a href="https://colab.research.google.com/drive/1kj4AB_aVA2Y2taPHPU72AsR11Io5oR8B#scrollTo=RVT5r5AROKfH" target="_blank">
+            <a href="https://colab.research.google.com/drive/1kj4AB_aVA2Y2taPHPU72AsR11Io5oR8B#scrollTo=RVT5r5AROKfH" target="_blank" rel="noreferrer">
               <Button> Code </Button>
             </a>
             <br></br>
-            <a href="https://jonathan-hui.medium.com/machine-learning-graphical-model-b68b0c27a749" target="_blank">
+            <a href="https://pgm-website.vercel.app/module1/mod1_part1.html" target="_blank" rel="noreferrer">
               <Button> Theory </Button>
             </a>
           </ol>
