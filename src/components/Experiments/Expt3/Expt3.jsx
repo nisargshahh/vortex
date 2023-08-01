@@ -1,5 +1,18 @@
 import React, { Component } from "react";
 import "./expt3.css";
+import styled from "styled-components";
+
+const Button = styled.button`
+            background-color: #810b07;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            padding: 10px 60px;
+            border-radius: 5px;
+            margin: 10px 0px;
+            cursor: pointer;
+            `;
+
 export default class Expt1 extends Component {
   render() {
     return (
@@ -98,6 +111,13 @@ export default class Expt1 extends Component {
             </u1>
           </p>
         </ul>
+        <h3 className="expt-sub-heading">
+          <ol>
+            <a href="https://pgm-website.vercel.app/module2/mod2.html" target="_blank" rel="noreferrer">
+              <Button> Theory </Button>
+            </a>
+          </ol>
+        </h3>
         <h3 className="expt-sub-heading">
           <u>Questions</u>
         </h3>

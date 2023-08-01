@@ -44,7 +44,7 @@ export default class Expt1 extends Component {
               <Button> Code </Button>
             </a>
             <br></br>
-            <a href="" target="_blank">
+            <a href="https://machinelearningmastery.com/what-is-maximum-likelihood-estimation-in-machine-learning/" target="_blank" rel="noreferrer">
               <Button> Theory </Button>
             </a>
           </ol>
