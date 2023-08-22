@@ -9,7 +9,7 @@ export default function navbar() {
       <Navbar bg="blueBg" variant="dark" sticky="top" expand='sm' collapseOnSelect className="nav-bar">
         <Navbar.Brand className="nav-img">
           <Nav.Link href="/"><img
-            src={require("../Images/somaiya-logo-v1.png")}
+            src={require("../Images/header-somaiya.png")}
             alt="Vortex"
             className="nav-logo-img"
           /></Nav.Link>
