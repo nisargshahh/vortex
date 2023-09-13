@@ -113,7 +113,7 @@ export default class Expt1 extends Component {
         </ul>
         <h3 className="expt-sub-heading">
           <ol>
-            <a href="https://pgm-website.vercel.app/module2/mod2.html" target="_blank" rel="noreferrer">
+            <a href="https://pgm.kjsieit.com/theory/module2/mod2.html" target="_blank" rel="noreferrer">
               <Button> Theory </Button>
             </a>
           </ol>
