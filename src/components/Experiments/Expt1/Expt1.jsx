@@ -97,7 +97,7 @@ export default class Expt1 extends Component {
               <Button> Code </Button>
             </a>
             <br></br>
-            <a href="https://pgm-website.vercel.app/module1/mod1_part1.html" target="_blank" rel="noreferrer">
+            <a href="https://pgm.kjsieit.com/theory/module1/mod1_part1.html" target="_blank" rel="noreferrer">
               <Button> Theory </Button>
             </a>
           </ol>

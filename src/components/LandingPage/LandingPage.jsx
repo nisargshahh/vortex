@@ -7,8 +7,8 @@ export default class LandingPage extends Component {
     return (
       <div className="main">
         <div className="heading">
-          <h1 className="vortex-name">Vortex</h1>
-          <h3 className="the-pgm-simulator">The PGM Simulator</h3>
+          <h1 className="vortex-name">PGM</h1>
+          <h3 className="the-pgm-simulator">Probabilistic Graphical Models</h3>
           <h3 className="downward-arrow"><a href="#functions">🢓</a></h3>
         </div>
 
@@ -19,6 +19,10 @@ export default class LandingPage extends Component {
             </li>
             <li>
               <Link to="/module-obj">Module Objectives</Link>
+            </li>
+            <li>
+              <a href="https://pgm.kjsieit.com/theory/index.html" target="_blank" rel="noreferrer">
+                Theory Section </a>
             </li>
             <li>
               <Link to="/lo-expts">List of Experiments</Link>

@@ -21,7 +21,7 @@ export default function navbar() {
               <b>Home</b>
             </Nav.Link>
             <Nav.Link className="nav-link" href="/about-pgm">
-              <b>About</b>
+              <b>About PGM</b>
             </Nav.Link>
             <NavDropdown title=<b>Experiments</b>>
               <NavDropdown.Item href="/lo-expts/expt1">Probability Theory</NavDropdown.Item>
@@ -30,7 +30,7 @@ export default function navbar() {
               <NavDropdown.Item href="/lo-expts/expt4">Markov Chain Model</NavDropdown.Item>
               <NavDropdown.Item href="/lo-expts/expt5">Hidden Markov Model</NavDropdown.Item>
               <NavDropdown.Item href="/lo-expts/expt6">MLE</NavDropdown.Item>
-              <NavDropdown.Item href="/lo-expts/expt7">Decion Tree</NavDropdown.Item>
+              <NavDropdown.Item href="/lo-expts/expt7">Decision Tree</NavDropdown.Item>
               <NavDropdown.Item href="/lo-expts/expt8">Case Study</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className="nav-link" href="/feedback">
@@ -38,6 +38,9 @@ export default function navbar() {
             </Nav.Link>
             <Nav.Link className="nav-link" href="/module-obj">
               <b>Course Objectives</b>
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="https://pgm.kjsieit.com/theory/aboutus.html">
+              <b>About Us</b>
             </Nav.Link>
           </Nav>
         </NavbarCollapse>
